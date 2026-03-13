@@ -1,0 +1,124 @@
+{
+  "customers": [
+    {
+      "customer_id": 1,
+      "first_name": "Emma",
+      "last_name": "Johnson",
+      "email": "emma.johnson@email.com",
+      "phone": "555-123-4567",
+      "city": "Seattle",
+      "state": "WA",
+      "age": 34,
+      "total_purchases": 1250.75,
+      "loyalty_level": "Gold"
+    },
+    {
+      "customer_id": 2,
+      "first_name": "Liam",
+      "last_name": "Rodriguez",
+      "email": "liam.rodriguez@email.com",
+      "phone": "555-987-6543",
+      "city": "Austin",
+      "state": "TX",
+      "age": 42,
+      "total_purchases": 890.5,
+      "loyalty_level": "Silver"
+    },
+    {
+      "customer_id": 3,
+      "first_name": "Olivia",
+      "last_name": "Chen",
+      "email": "olivia.chen@email.com",
+      "phone": "555-456-7890",
+      "city": "San Francisco",
+      "state": "CA",
+      "age": 29,
+      "total_purchases": 1500.25,
+      "loyalty_level": "Platinum"
+    },
+    {
+      "customer_id": 4,
+      "first_name": "Noah",
+      "last_name": "Patel",
+      "email": "noah.patel@email.com",
+      "phone": "555-234-5678",
+      "city": "Chicago",
+      "state": "IL",
+      "age": 37,
+      "total_purchases": 675.9,
+      "loyalty_level": "Bronze"
+    },
+    {
+      "customer_id": 5,
+      "first_name": "Sophia",
+      "last_name": "Kim",
+      "email": "sophia.kim@email.com",
+      "phone": "555-345-6789",
+      "city": "Atlanta",
+      "state": "GA",
+      "age": 45,
+      "total_purchases": 2100.4,
+      "loyalty_level": "Diamond"
+    },
+    {
+      "customer_id": 6,
+      "first_name": "Ethan",
+      "last_name": "Martinez",
+      "email": "ethan.martinez@email.com",
+      "phone": "555-678-9012",
+      "city": "Denver",
+      "state": "CO",
+      "age": 31,
+      "total_purchases": 425.6,
+      "loyalty_level": "Silver"
+    },
+    {
+      "customer_id": 7,
+      "first_name": "Isabella",
+      "last_name": "Nguyen",
+      "email": "isabella.nguyen@email.com",
+      "phone": "555-567-8901",
+      "city": "Boston",
+      "state": "MA",
+      "age": 26,
+      "total_purchases": 980.3,
+      "loyalty_level": "Gold"
+    },
+    {
+      "customer_id": 8,
+      "first_name": "Mason",
+      "last_name": "Thompson",
+      "email": "mason.thompson@email.com",
+      "phone": "555-789-0123",
+      "city": "Portland",
+      "state": "OR",
+      "age": 39,
+      "total_purchases": 1750.85,
+      "loyalty_level": "Platinum"
+    },
+    {
+      "customer_id": 9,
+      "first_name": "Ava",
+      "last_name": "Williams",
+      "email": "ava.williams@email.com",
+      "phone": "555-890-1234",
+      "city": "Miami",
+      "state": "FL",
+      "age": 33,
+      "total_purchases": 540.2,
+      "loyalty_level": "Bronze"
+    },
+    {
+      "customer_id": 10,
+      "first_name": "Jackson",
+      "last_name": "Lee",
+      "email": "jackson.lee@email.com",
+      "phone": "555-901-2345",
+      "city": "Phoenix",
+      "state": "AZ",
+      "age": 48,
+      "total_purchases": 1890.75,
+      "loyalty_level": "Diamond"
+    }
+  ]
+}

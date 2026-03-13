@@ -1,0 +1,48 @@
+# ADR 001: Selection of Weather and Geocoding API
+
+## Status
+Proposed (2026-02-17)
+
+## Context
+The application needs to provide current weather data (temperature, humidity, wind speed) for a user-specified city (defaulting to Győr, Hungary). 
+
+To achieve this, the system requires:
+1.  A **Geocoding service** to convert human-readable city names (e.g., "Gyor") into geographical coordinates (Latitude/Longitude).
+2.  A **Weather service** to fetch real-time atmospheric data based on those coordinates.
+
+## Decision
+We have decided to use the **Open-Meteo API** suite (both Geocoding and Weather Forecast APIs) using the Python `requests` library.
+
+### Why Open-Meteo?
+*   **No API Keys:** Unlike OpenWeatherMap or AccuWeather, Open-Meteo does not require an API key for non-commercial use. This simplifies the setup and avoids "secrets management" (storing keys in `.env` files).
+*   **Performance:** The API is highly responsive and uses open-source weather models.
+*   **Developer Friendly:** It returns clean JSON and provides an easy-to-use URL-based parameter system.
+*   **Geocoding Integration:** By using the same provider for both coordinates and weather, we ensure better compatibility between data points.
+
+## Alternatives Considered
+1.  **OpenWeatherMap:** Rejected because it requires account registration and an API key (which takes 1-2 hours to activate).
+2.  **Weatherstack:** Rejected because the free tier has very low monthly limits and does not support forecast data in the basic version.
+3.  **Built-in Python `urllib`:** Rejected in favor of the `requests` library for better readability and PEP 8 compliance.
+
+## Consequences
+
+### Pros
+*   **Ease of Onboarding:** New developers can clone the repo and run the code immediately without signing up for external services.
+*   **PEP 8 Compliance:** The implementation uses standard Pythonic naming conventions and clean function structures.
+*   **Zero Cost:** The solution is entirely free for the current scope of the project.
+
+### Cons
+*   **Non-Commercial Limits:** If the application scales to a commercial product, we would need to check the 10,000 calls/day limit or switch to a paid plan.
+*   **Internet Dependency:** The application requires an active internet connection to function as no local caching is implemented yet.
+
+## Implementation Details
+*   **Tooling:** Managed via `uv` for high-speed dependency resolution.
+*   **Libraries:** `requests` for HTTP communication.
+*   **Pattern:** Two-step fetch process (Name -> Coords -> Weather).
+
+---
+
+### How to use this ADR:
+1.  Create a folder: `docs/adr/`
+2.  Paste the text above into a file called `001-choice-of-weather-api.md`.
+3.  This serves as "institutional memory" so that if you look at the code in 6 months, you know exactly why you didn't use OpenWeatherMap.
