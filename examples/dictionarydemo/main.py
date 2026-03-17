@@ -8,7 +8,7 @@ contact = {
 # a) Not safe access, can cause KeyError if the key does not exist
 # a = contact["wpeoriqwpeoriqwpeúr"]
 # b) Safe access using get method, returns None if the key does not exist
-a = contact.get("wpeoriqwpeoriqwpeúr")
+a = contact.get("nama")
 print(a)  # Output: None
 
 x = contact["name"]
@@ -19,3 +19,4 @@ print(x)
 print(y)
 print(contact["city"])
 print(contact)
+print("name" in contact)  # Output: True
