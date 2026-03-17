@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "WordCount: run with sample-text.txt",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/wc.py",
+      "args": ["${workspaceFolder}/sample-text.txt"],
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}

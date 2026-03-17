@@ -1,0 +1,99 @@
+The Evolution of Open Source Software and Python Tools.
+
+    In the beginning, there was code.     And that code was often shared freely
+between academic researchers and hobbyists. However, as the industry grew,
+proprietary software became the dominant model.
+
+But the story did not end there.
+
+1. The Free Software Movement
+2. The Open Source Initiative
+3. The Modern Era of GitHub and UV
+
+Software development is about community.  It is about collaboration.  It is about
+the  way  we  build  things  together.
+
+Here are some repetitive words to test the frequency analysis:
+Python is great.
+Python is fast.
+Python is used by many people.
+Code should be clean.
+Code should be tested.
+Code should be documented.
+
+        This line has a massive tab at the start.
+This line has    way    too    many    spaces    between    words.
+
+Let's add some empty lines to test the line counter...
+
+
+...and more empty lines.
+
+The quick brown fox jumps over the lazy dog. 
+The quick brown fox jumps over the lazy dog again.
+The quick brown fox jumps over the lazy dog for the third time.
+
+Is this working?
+Yes, it is working.
+Why is it working?
+Because we wrote the code correctly.
+
+Stop word test:
+a an the and or but if because as until while of at by for with about
+against between into through during before after above below to from
+up down in out on off over under again further then once here there
+when where why how all any both each few more most other some such
+no nor not only own same so than too very can will just should now.
+
+Generating more lines to hit the 100-line requirement...
+Line 50: Development is rewarding.
+Line 51: Development is challenging.
+Line 52: Software is everywhere.
+Line 53: Software is eating the world.
+Line 54: We love writing code.
+Line 55: We love solving problems.
+Line 56: Technology moves fast.
+Line 57: Stay curious.
+Line 58: Keep learning.
+Line 59: Documentation is key.
+Line 60: Tests are important.
+Line 61: Bugs are inevitable.
+Line 62: Debugging is an art.
+Line 63: Performance matters.
+Line 64: Optimization is tricky.
+Line 65: Readability counts.
+Line 66: Simplicity is better than complexity.
+Line 67: Complex is better than complicated.
+Line 68: Flat is better than nested.
+Line 69: Sparse is better than dense.
+Line 70: Errors should never pass silently.
+Line 71: Unless explicitly silenced.
+Line 72: In the face of ambiguity, refuse the temptation to guess.
+Line 73: There should be one-- and preferably only one --obvious way to do it.
+Line 74: Although that way may not be obvious at first unless you're Dutch.
+Line 75: Now is better than never.
+Line 76: Although never is often better than *right* now.
+Line 77: If the implementation is hard to explain, it's a bad idea.
+Line 78: If the implementation is easy to explain, it may be a good idea.
+Line 79: Namespaces are one honking great idea -- let's do more of those!
+Line 80: This is a filler line.
+Line 81: This is another filler line.
+Line 82: Data science is popular.
+Line 83: Machine learning is growing.
+Line 84: Artificial intelligence is everywhere.
+Line 85: Command line tools are powerful.
+Line 86: UV is a very fast package manager.
+Line 87: Pip is the classic choice.
+Line 88: Virtual environments are necessary.
+Line 89: Dependencies must be managed.
+Line 90: Text analysis is fun.
+Line 91: Statistics provide insight.
+Line 92: Tabulate makes tables pretty.
+Line 93: Argparse handles the input.
+Line 94: Regex cleans the noise.
+Line 95: Collections count the words.
+Line 96: Almost at the end.
+Line 97: Just a few more.
+Line 98: Final thoughts.
+Line 99: This is the penultimate line.
+Line 100: This is the final line of the sample text.
