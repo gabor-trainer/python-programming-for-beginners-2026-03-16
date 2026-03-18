@@ -1,0 +1,12 @@
+[project]
+name = "cli-app"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "wordcount",
+]
+
+[tool.uv.sources]
+wordcount = { path = "../wordcount", editable = true }
