@@ -1,10 +1,10 @@
 [project]
-name = "loop-demo"
+name = "streamlitdemo"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "pytest>=9.0.2",
+    "pandas>=2.2.0",
+    "streamlit>=1.55.0",
 ]
-
